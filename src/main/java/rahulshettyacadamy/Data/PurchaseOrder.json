@@ -1,0 +1,30 @@
+[
+	{
+		"Email": "raju1245@gmail.com",
+		"Password": "Suvarna@02",
+		"User": "Existing",
+		"productName":"ADIDAS ORIGINAL",
+		"Country": "United State",
+		"Username": "wedrtyui",
+		"LastName": "Tho",
+		"Phone":"1234567890",
+		"age": "18",
+		"Occ": "Doctor",
+		"gender": "Male"
+	},
+	{
+		"Email": "suvarna5@gmail.com",
+		"Password": "Suvarna@02",
+		"User": "Existing",
+		"productName": "ZARA COAT 3",
+		"Country": "India",
+		"Username": "wedrtyui",
+		"LastName": "Tho",
+		"Phone":"1234567890",
+		"age": "18",
+		"Occ": "Doctor",
+		"gender": "Male"
+	}
+]
+
+		
