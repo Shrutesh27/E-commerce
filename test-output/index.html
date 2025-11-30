@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>E:\Testing\Sele\SeleniumFrameWorkDesign2\TestSuites\Purchase.xml</span>
+                    <span>E:\Testing\Sele\SeleniumFrameWorkDesign2\TestSuites\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -60,7 +60,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Suite" class="navigator-link ">
-                    <span>1 group</span>
+                    <span>2 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,40 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">9 methods, 2 failed,  1 skipped,  6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="rahulshettyacadamy.Test.ErrorValidationTest" class="method navigator-link" hash-for-method="LoginErrorvalidation">LoginErrorvalidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="rahulshettyacadamy.Test.ErrorValidationTest" class="method navigator-link" hash-for-method="ProductErroValidation">ProductErroValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="rahulshettyacadamy.Test.ErrorValidationTest" class="method navigator-link" hash-for-method="LoginErrorvalidation">LoginErrorvalidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +136,17 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="rahulshettyacadamy.Test.SubmitOrderTest" class="method navigator-link" hash-for-method="SubmitOrder({User=Existing, Email=raju1245653@gmail.com, gender=Female, Username=wedrtyui, Phone=1234567890, Cou...)">SubmitOrder({User=Existing, Email=raju1245653@gmail.com, gender=Female, Username=wedrtyui, Phone=1234567890, Cou...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="rahulshettyacadamy.Test.SubmitOrderTest" class="method navigator-link" hash-for-method="OrderHistory({User=Existing, Email=suvarna5@gmail.com, gender=Male, Username=wedrtyui, Phone=1234567890, Country=...)">OrderHistory({User=Existing, Email=suvarna5@gmail.com, gender=Male, Username=wedrtyui, Phone=1234567890, Country=...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="rahulshettyacadamy.Test.SubmitOrderTest" class="method navigator-link" hash-for-method="OrderHistory({User=Existing, Email=raju1245653@gmail.com, gender=Female, Username=wedrtyui, Phone=1234567890, Cou...)">OrderHistory({User=Existing, Email=raju1245653@gmail.com, gender=Female, Username=wedrtyui, Phone=1234567890, Cou...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="rahulshettyacadamy.Test.SubmitOrderTest" class="method navigator-link" hash-for-method="OrderHistory({User=Existing, Email=raju1245@gmail.com, gender=Male, Username=wedrtyui, Phone=1234567890, Country=...)">OrderHistory({User=Existing, Email=raju1245@gmail.com, gender=Male, Username=wedrtyui, Phone=1234567890, Country=...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -114,6 +157,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="rahulshettyacadamy.Test.SubmitOrderTest" class="method navigator-link" hash-for-method="SubmitOrder({User=Existing, Email=suvarna5@gmail.com, gender=Male, Username=wedrtyui, Phone=1234567890, Country=...)">SubmitOrder({User=Existing, Email=suvarna5@gmail.com, gender=Male, Username=wedrtyui, Phone=1234567890, Country=...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="rahulshettyacadamy.Test.SubmitOrderTest" class="method navigator-link" hash-for-method="SubmitOrder({User=Existing, Email=raju1245653@gmail.com, gender=Female, Username=wedrtyui, Phone=1234567890, Cou...)">SubmitOrder({User=Existing, Email=raju1245653@gmail.com, gender=Female, Username=wedrtyui, Phone=1234567890, Cou...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -128,6 +176,73 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">rahulshettyacadamy.Test.ErrorValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginErrorvalidation">
+                  </a> <!-- LoginErrorvalidation -->
+                  <span class="method-name">LoginErrorvalidation</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Incorrect email or password.
+	at rahulshettyacadamy.abstractComponents.Validations.LoginBtn(Validations.java:141)
+	at rahulshettyacadamy.PageObjects.LandingPage.LoginApplication(LandingPage.java:59)
+	at rahulshettyacadamy.Test.ErrorValidationTest.LoginErrorvalidation(ErrorValidationTest.java:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ProductErroValidation">
+                  </a> <!-- ProductErroValidation -->
+                  <span class="method-name">ProductErroValidation</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Email :- *Enter Valid Email
+	at rahulshettyacadamy.abstractComponents.Validations.LoginBtn(Validations.java:141)
+	at rahulshettyacadamy.PageObjects.LandingPage.LoginApplication(LandingPage.java:59)
+	at rahulshettyacadamy.Test.ErrorValidationTest.ProductErroValidation(ErrorValidationTest.java:97)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">rahulshettyacadamy.Test.ErrorValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginErrorvalidation">
+                  </a> <!-- LoginErrorvalidation -->
+                  <span class="method-name">LoginErrorvalidation</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Email :- *Enter Valid Email
+	at rahulshettyacadamy.abstractComponents.Validations.LoginBtn(Validations.java:141)
+	at rahulshettyacadamy.PageObjects.LandingPage.LoginApplication(LandingPage.java:59)
+	at rahulshettyacadamy.Test.ErrorValidationTest.LoginErrorvalidation(ErrorValidationTest.java:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -136,10 +251,26 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="SubmitOrder({User=Existing, Email=raju1245653@gmail.com, gender=Female, Username=wedrtyui, Phone=1234567890, Cou...)">
-                  </a> <!-- SubmitOrder({User=Existing, Email=raju1245653@gmail.com, gender=Female, Username=wedrtyui, Phone=1234567890, Cou...) -->
-                  <span class="method-name">SubmitOrder</span>
+                  <a name="OrderHistory({User=Existing, Email=suvarna5@gmail.com, gender=Male, Username=wedrtyui, Phone=1234567890, Country=...)">
+                  </a> <!-- OrderHistory({User=Existing, Email=suvarna5@gmail.com, gender=Male, Username=wedrtyui, Phone=1234567890, Country=...) -->
+                  <span class="method-name">OrderHistory</span>
+                  <span class="parameters">({User=Existing, Email=suvarna5@gmail.com, gender=Male, Username=wedrtyui, Phone=1234567890, Country=India, LastName=Tho, productName=ZARA COAT 3, age=17, Occ=Doctor, Password=Suvarna@02})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrderHistory({User=Existing, Email=raju1245653@gmail.com, gender=Female, Username=wedrtyui, Phone=1234567890, Cou...)">
+                  </a> <!-- OrderHistory({User=Existing, Email=raju1245653@gmail.com, gender=Female, Username=wedrtyui, Phone=1234567890, Cou...) -->
+                  <span class="method-name">OrderHistory</span>
                   <span class="parameters">({User=Existing, Email=raju1245653@gmail.com, gender=Female, Username=wedrtyui, Phone=1234567890, Country=United State, LastName=Tho, productName=ADIDAS ORIGINAL, age=18, Occ=Doctor, Password=Suvarna@02})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrderHistory({User=Existing, Email=raju1245@gmail.com, gender=Male, Username=wedrtyui, Phone=1234567890, Country=...)">
+                  </a> <!-- OrderHistory({User=Existing, Email=raju1245@gmail.com, gender=Male, Username=wedrtyui, Phone=1234567890, Country=...) -->
+                  <span class="method-name">OrderHistory</span>
+                  <span class="parameters">({User=Existing, Email=raju1245@gmail.com, gender=Male, Username=wedrtyui, Phone=1234567890, Country=United State, LastName=Tho, productName=ADIDAS ORIGINAL, age=18, Occ=Doctor, Password=Suvarna@02})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -158,37 +289,35 @@
                   <span class="parameters">({User=Existing, Email=suvarna5@gmail.com, gender=Male, Username=wedrtyui, Phone=1234567890, Country=India, LastName=Tho, productName=ZARA COAT 3, age=17, Occ=Doctor, Password=Suvarna@02})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SubmitOrder({User=Existing, Email=raju1245653@gmail.com, gender=Female, Username=wedrtyui, Phone=1234567890, Cou...)">
+                  </a> <!-- SubmitOrder({User=Existing, Email=raju1245653@gmail.com, gender=Female, Username=wedrtyui, Phone=1234567890, Cou...) -->
+                  <span class="method-name">SubmitOrder</span>
+                  <span class="parameters">({User=Existing, Email=raju1245653@gmail.com, gender=Female, Username=wedrtyui, Phone=1234567890, Country=United State, LastName=Tho, productName=ADIDAS ORIGINAL, age=18, Occ=Doctor, Password=Suvarna@02})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">E:\Testing\Sele\SeleniumFrameWorkDesign2\TestSuites\Purchase.xml</span>
+            <span class="header-content">E:\Testing\Sele\SeleniumFrameWorkDesign2\TestSuites\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;groups&gt;
-    &lt;run&gt;
-      &lt;include name=&quot;Purchase&quot;/&gt;
-    &lt;/run&gt;
-  &lt;/groups&gt;
-  &lt;groups&gt;
-    &lt;run&gt;
-      &lt;include name=&quot;Purchase&quot;/&gt;
-    &lt;/run&gt;
-  &lt;/groups&gt;
+&lt;suite parallel=&quot;methods&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;rahulshettyacadamy.TestComponents.Listeners&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;SubmitOrder&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;methods&quot; name=&quot;SubmitOrder&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;rahulshettyacadamy.Test.SubmitOrderTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- SubmitOrder --&gt;
-  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;ErrorValidation&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;methods&quot; name=&quot;ErrorValidation&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;rahulshettyacadamy.Test.ErrorValidationTest&quot;/&gt;
     &lt;/classes&gt;
@@ -218,6 +347,14 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
+              <span class="test-group-name">Errorhandling</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginErrorvalidation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
               <span class="test-group-name">Purchase</span>
               <br/>
               <div class="method-in-group">
@@ -241,24 +378,48 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'SubmitOrder')
-data.setCell(0, 2, 'rahulshettyacadamy.Test.SubmitOrderTest')
-data.setCell(0, 3, 17260);
+data.setCell(0, 1, 'ProductErroValidation')
+data.setCell(0, 2, 'rahulshettyacadamy.Test.ErrorValidationTest')
+data.setCell(0, 3, 22585);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'SubmitOrder')
-data.setCell(1, 2, 'rahulshettyacadamy.Test.SubmitOrderTest')
-data.setCell(1, 3, 17173);
+data.setCell(1, 1, 'LoginErrorvalidation')
+data.setCell(1, 2, 'rahulshettyacadamy.Test.ErrorValidationTest')
+data.setCell(1, 3, 20769);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'SubmitOrder')
 data.setCell(2, 2, 'rahulshettyacadamy.Test.SubmitOrderTest')
-data.setCell(2, 3, 17081);
+data.setCell(2, 3, 17779);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'OrderHistory')
+data.setCell(3, 2, 'rahulshettyacadamy.Test.SubmitOrderTest')
+data.setCell(3, 3, 17322);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'SubmitOrder')
+data.setCell(4, 2, 'rahulshettyacadamy.Test.SubmitOrderTest')
+data.setCell(4, 3, 17092);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'SubmitOrder')
+data.setCell(5, 2, 'rahulshettyacadamy.Test.SubmitOrderTest')
+data.setCell(5, 3, 16091);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'OrderHistory')
+data.setCell(6, 2, 'rahulshettyacadamy.Test.SubmitOrderTest')
+data.setCell(6, 3, 12454);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'OrderHistory')
+data.setCell(7, 2, 'rahulshettyacadamy.Test.SubmitOrderTest')
+data.setCell(7, 3, 12185);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'LoginErrorvalidation')
+data.setCell(8, 2, 'rahulshettyacadamy.Test.ErrorValidationTest')
+data.setCell(8, 3, 10777);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -273,25 +434,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">3 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">rahulshettyacadamy.Test.ErrorValidationTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">LoginErrorvalidation</span>
-                <br/>
-                <span class="ignored-method-name">ProductErroValidation</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">rahulshettyacadamy.Test.SubmitOrderTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">OrderHistory</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -307,35 +452,116 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">SubmitOrder({User=Existing, Email=raju1245@gmail.com, gender=Male, Username=wedrtyui, Phone=1234567890, Country=...)</span>
-                <span class="method-start">9403 ms</span>
+                <span class="method-start">10757 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">26672 ms</span>
+                <span class="method-start">28551 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">LaunchApplication</span>
-                <span class="method-start">27056 ms</span>
+                <span class="method-start">28945 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">SubmitOrder({User=Existing, Email=suvarna5@gmail.com, gender=Male, Username=wedrtyui, Phone=1234567890, Country=...)</span>
-                <span class="method-start">34196 ms</span>
+                <span class="method-start">36693 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">51285 ms</span>
+                <span class="method-start">52786 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">LaunchApplication</span>
-                <span class="method-start">51491 ms</span>
+                <span class="method-start">53169 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">SubmitOrder({User=Existing, Email=raju1245653@gmail.com, gender=Female, Username=wedrtyui, Phone=1234567890, Cou...)</span>
-                <span class="method-start">57157 ms</span>
+                <span class="method-start">58631 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">74337 ms</span>
+                <span class="method-start">75728 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchApplication</span>
+                <span class="method-start">76229 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OrderHistory({User=Existing, Email=raju1245@gmail.com, gender=Male, Username=wedrtyui, Phone=1234567890, Country=...)</span>
+                <span class="method-start">77860 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">95185 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchApplication</span>
+                <span class="method-start">95473 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OrderHistory({User=Existing, Email=suvarna5@gmail.com, gender=Male, Username=wedrtyui, Phone=1234567890, Country=...)</span>
+                <span class="method-start">105467 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">117923 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchApplication</span>
+                <span class="method-start">118319 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OrderHistory({User=Existing, Email=raju1245653@gmail.com, gender=Female, Username=wedrtyui, Phone=1234567890, Cou...)</span>
+                <span class="method-start">123664 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">135853 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rahulshettyacadamy.Test.ErrorValidationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchApplication</span>
+                <span class="method-start">137244 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchApplication</span>
+                <span class="method-start">137244 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ProductErroValidation</span>
+                <span class="method-start">143673 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginErrorvalidation</span>
+                <span class="method-start">145498 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">166267 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchApplication</span>
+                <span class="method-start">166787 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">166848 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginErrorvalidation</span>
+                <span class="method-start">172597 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">183715 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
