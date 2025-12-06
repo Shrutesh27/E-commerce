@@ -2,7 +2,7 @@ package rahulshettyacadamy.Test;
 
 import java.time.Duration;
 import java.util.List;
-import java.util.stream.Collectors;
+
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -42,8 +42,7 @@ public class StandAlonTest {
 		 * (); } }
 		 */
 
-		WebElement product = products.stream()
-				.filter(s -> s.findElement(By.cssSelector("b")).getText().contains(productName)).findFirst()
+		WebElement product = products.stream().filter(s -> s.findElement(By.cssSelector("b")).getText().contains(productName)).findFirst()
 				.orElse(null);
 		String price = product.findElement(By.cssSelector(".card-body .text-muted")).getText();
 		product.findElement(By.cssSelector("button[class='btn w-10 rounded']")).click();
